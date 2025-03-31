@@ -5,7 +5,7 @@ import App from './App.tsx';
 import './index.css';
 
 // Replace this with your actual Google Client ID
-const GOOGLE_CLIENT_ID = "YOUR_GOOGLE_CLIENT_ID"; 
+const GOOGLE_CLIENT_ID = "195486654049-lqcbulpping60kp35gi0igcfa7n1dq4u.apps.googleusercontent.com"; 
 
 createRoot(document.getElementById("root")!).render(
   <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID}>
